@@ -185,7 +185,7 @@ if __name__ == '__main__':
         sys.exit(1)
 
     # Run parsing
-    length, mismatches, gaps = parse(in_file, out_file, seq_name, int(offset1), int(offset2))
+    length, mismatches, gaps = parse(in_file, out_file, seq_name, offset1, offset2)
 
     # Print statistics
     print(f"Alignment statistics for sequence '{seq_name}':")
